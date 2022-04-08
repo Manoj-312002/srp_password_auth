@@ -1,3 +1,4 @@
+package basic;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -10,7 +11,7 @@ public class byteRpr {
     public static void main(String[] args) throws Exception {
         BufferedImage bImage = ImageIO.read(new File("Text.png"));
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        ImageIO.write(bImage, "png", bos );
+        ImageIO.write(bImage, "jpg", bos );
         byte [] data = bos.toByteArray();
         byte[] txt = Base64.getDecoder().decode("oeeXRH1b6Y0q7UJAvOX/GRoY8m90bpD+1diJEhuEPZ8=");
         
