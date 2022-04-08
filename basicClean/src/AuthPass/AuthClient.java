@@ -1,7 +1,5 @@
 package basicClean.src.AuthPass;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.nio.charset.StandardCharsets;
 import java.security.*;
 import java.util.UUID;
